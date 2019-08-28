@@ -1,0 +1,15 @@
+---
+layout: landing
+show_title: false
+article_header: false
+---
+<div class="layout--404">
+  <div class="sign">
+      {{ content }}
+      {%- if page.lang == "fr" -%}
+      <h6>Cliquez <a href="{{ page.redirect.destination }}">ici</a> si vous n'êtes pas redirigé</h6>
+      {%- else -%}        
+      <h6>Click <a href="{{ page.redirect.destination }}">here</a> if you are not automatically redirected</h6>
+      {%- endif -%}
+  </div>
+</div>

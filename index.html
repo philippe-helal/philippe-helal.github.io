@@ -1,5 +1,12 @@
 ---
-layout: home
-# articles:
-#   excerpt_type: html
+layout: base
 ---
+  <script type="text/javascript">
+    location.href = (navigator.userLanguage || navigator.language).startsWith("fr") ? "fr" : "en";
+  </script>
+  <noscript>
+    <ul>
+      <li><a href="en">English</a></li>
+      <li><a href="fr">Français</a></li>
+    </ul>
+  </noscript>

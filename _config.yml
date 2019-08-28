@@ -20,26 +20,25 @@ text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate"
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
-title   : Your Site Title
+title   : Philippe Helal
 description: > # this means to ignore newlines until "Language & timezone"
-  Your Site Description
 
 
 ## => Language and Timezone
 ##############################
 lang: # the language of your site, default as "en"
-timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
+timezone: America/Montreal # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
 
 
 ## => Author and Social
 ##############################
 author:
   type      : # "person" (default), "organization"
-  name      : Your Name
+  name      : Philippe Helal
   url       :
   avatar    : # path or url of avatar image (square)
-  bio       : I am an amazing person.
-  email     :
+  bio       : Computer Science Graduate Student at Université de Montréal
+  email     : /#contact
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
   twitter   : # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
   weibo     : # "user_id"   the last part of your profile url, e.g. https://www.weibo.com/user_id/profile?...
@@ -48,25 +47,25 @@ author:
   medium    : # "user_name" the last part of your profile url, e.g. https://medium.com/user_name
   zhihu     : # "user_name" the last part of your profile url, e.g. https://www.zhihu.com/people/user_name
   douban    : # "user_name" the last part of your profile url, e.g. https://www.douban.com/people/user_name
-  linkedin  : # "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name
-  github    : # "user_name" the last part of your profile url, e.g. https://github.com/user_name
+  linkedin  : philippehelal # "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name
+  github    : ctrl-q # "user_name" the last part of your profile url, e.g. https://github.com/user_name
   npm       : # "user_name" the last part of your profile url, e.g. https://www.npmjs.com/~user_name
-  bitcoin   : # Bitcoin address
+  bitcoin   : 1C5AmTsLQCrGZAezcGKSm6gEgyBpAcM9kD # Bitcoin address
 
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
-repository: user_name/repo_name
+repository: philippe-helal.github.io
 repository_tree: master
 
 
 ## => Paths
 ##############################
 paths:
-  root    : # title link url, "/" (default)
-  home    : # home layout url, "/" (default)
-  archive : # "/archive.html" (default)
-  rss     : # "/feed.xml" (default)
+  root    : /en/ # title link url, "/" (default)
+  home    : /en/ # home layout url, "/" (default)
+  archive : /blog/archive.html # "/archive.html" (default)
+  rss     : /blog/feed.xml # "/feed.xml" (default)
 
 
 ## => Post
@@ -98,18 +97,18 @@ chart: # false (default), true
 ## => Paginate
 ##############################
 paginate: 8
-paginate_path: /page:num # don't change this unless for special need
+paginate_path: /blog/page:num # don't change this unless for special need
 
 
 ## => Sources
 ##############################
-sources: # bootcdn (default), unpkg
+sources: unpkg # bootcdn (default), unpkg
 
 
 ## => Sharing
 ##############################
 sharing:
-  provider: false # false (default), "addtoany", "addthis", "custom"
+  provider: addtoany # false (default), "addtoany", "addthis", "custom"
 
   ## AddThis
   addthis:
@@ -185,12 +184,12 @@ analytics:
 ## => Contact Form
 ##############################
 contact:
-  provider: # false (default), "fncontact", "custom"
-  pgp_public_key: # Base64-encoded PGP Public Key (default: none)
+  provider: fncontact # false (default), "fncontact", "custom"
+  pgp_public_key: LS0tLS1CRUdJTiBQR1AgUFVCTElDIEtFWSBCTE9DSy0tLS0tCgptUUdOQkZtS1VuOEJEQURyc0Z0M1pwa2FJMDQ1Uy90dGRXcm9uUjQvMmFuY0h1TjRkR2wzckp4M2pMY1NGZlV4CkxXdkxsb3pVazR0N2FVMXhVRzAxS245NVg2YXZNTUF1bVp3SXdPNnVObmNuWGs2RjF5RkdYTHk3bmhRMURBQzQKVkNKZDNkUklseDRKZWtNT3pqYzhsVkJNSUNkbXpoTmo0Y1FPQmdxS29GakdlVEtWTjJZZmpteEdKV1cxcWQydQppUTRrSlBZNWY3aC9TL1kvOHZnNVZlMjZGaWZudnA0OGcrRVNrWVYyek9mTWhlaGhZdVhNNFgvV1ZmbGNpQXhGCk1uamVNUStSLzdvbzhPRmdTZ1pzNTZLN0hJaXd6R3NSYWtlOVRTVVBYTm1PQ3pncjZ0RDFrYzZ6YzJnSmdOaDAKdit0OTdFY1RVUHdxUGduNkRvTUw0KzZjK2U3UEZ4cnZCSFUzVlRxeEJZUURMTzcwajBCdmRmWWpPOVV0MGpVLwpqZkppSDNwc0xEU1NKUit0SUN6VWo4a3FiSWZ2V1lLZFdBSUZDV2lXZEdheEJveUQxREpoUG5tTmpPaFRZOVN5ClFzYUFDV1NSSlVyMDlxelIxWDRXWEV2bGpwOFR2dnBGY0NBc29GdjVzK0xTUSttekRtR3pWK0NDRUxBQ1NMeXcKSmQyZTUxMVRjTjE4a2QwQUVRRUFBYlFZSUR4amIyNXZaWFJoYVhOQVpHbHpjbTl2ZEM1dmNtYytpUUd3QkJNQgpDZ0FhQkFzSkNBY0NGUW9DRmdFQ0dRRUZnbG1LVW44Q25nRUNtd0VBQ2drUWJGMlJ1YW9VRjA0bmRBdjhEVm41CnI0OEJzbmQ3TkpCTWFrSy94UmxYMzFuZEZpMnNaS21TWXpqeXR4TnhOWjdTeWZTSS9BUmhnZXZzb1hQemdZajkKajZpTHJMZ3k5K0pUS0JtMmlzVXBJRjJ5VWRXa2hMRjdDQnRoWVZ0aUZGNm02dE9UWGpId2RPZGo1K3dSS3VlbAppTldwc210L3p4M3ZVWm4ydGRyTEYyOWZYUjlDb05wQ2VWdklYOC8wMENyMTNhdFAyYU1kajdYNWMvQ1pwQzJZCllLK1JmMWtNYTI0bXRTSE9SK3pVNG1mTHUwd1hoZHRXZGJMLzFEeWxsQnh1UTMyaTErMmNBR1ZLMHo2dFRoekkKMmVlQUR6V3BIbGpBMWlSZTFEc1RMdUltd1YzQnV6alQ3RDVRUCtSS2F3ZGZTaU1SNVpXRWE4d3F2RWdQOGlNZwpYY0YwM1JMdHR3eE1rKzBITVJtbmNTUlVmWS95NzN1bVB1MWhmY0huN2I4bU9WZnhqbWgybGNaRTh0TzMvaXIrCmwxYUJzV25KUzRSaE9wSVhRdjhtM3h0UXUyN0YxbEkrMlJoTkxJZjErSENhVEI3dmR1WWlOdDhWK29rUmY1L0sKS2ZzNGFPbVd4RC8yYlpjTXNIdnlSUHU2UmozTTF5U0ZLNStxaTlsb0UvZTBhbEtyWWZ4bElKQi9uK1RBaVFHZgpCREFCQ2dBSkFoMEFCWUpjS1o2aUFBb0pFR3hka2JtcUZCZE9La2NNQU5XYmZLVEdqS2U0RVFQc08zSEhYalVpCm5qOTRYeDA0NzJiWW5qZVhvSDlVaTFPMEpQL1BTemxMcURjaXNodmhiUm12bXlBRjJWNzA1d0hkYzNabzVQUnIKTTkwL3IzSWZEL3NPUzJxc3FJZCtva3EyRzY4ckxSc1ZiNmRwdTl4QW8wT3N2dXdlWElQUVk0MkhUYTFxd1NlUAo2NGhYYjZEdi96VDk1cHJHY2FmVmptbmdONldFTzlnOFJxMXRlUVd3N20yd1Q3cklyWU12dC9RRzFJeGJMN29jClNxNjc4YVJvOG1uOG5jT3pIUEdzV3cydUZhRFpySGJ4N0dyQW42NkVNVjNYRU5ZNGN3Q3BMV2h5enJYUG1OS0cKaDFkWjkrcTFPa3BNb2NiRE5YS1hncEhpb2dxKzhyVWl6bTdOUm4rWWUvc0QyL1MrbUFBN001MWM1UWFHVWg4MQpiRkNmN3pBOFNBMXlwZUJTSjltalZPMzI0VVRCMGxEVThtNm9aYzBRK0R1OTFPbWJRangwa2lKYlhSUWg2a1hnCmFCRFQ3Y2R3QlhWVis4ZnB5ZkdCUVRTdHBtK0lCZWduU2JqQTBXNFh0MUx3T0IzS2NQNDZKU3NiRHFUUFFFeXMKanI3NEIrblpNRGV2Rjl1MjdEUXVGRkEwakc1Y01kc3FCTmY1WDBYZ0JMUWhZMjl1YjJWMFlXbHpJRHhqYjI1dgpaWFJoYVhOQVpHbHpjbTl2ZEM1dmNtYytpUUd3QkJNQkNnQWFCQXNKQ0FjQ0ZRb0NGZ0VDR1FFRmdsd3BvTEFDCm5nRUNtd0VBQ2drUWJGMlJ1YW9VRjA2bG5BdjlHSUlyNG8rcHEyRW9LZENIUk9oKzdjYkU5MEc1a1BBekc4ZEYKZnZDa1l2OWVPSkIydFNKUFI4bXdoR0FvbkFJdkdVZEd4NnhXSlpsUXdRbUdPa1ordmZoUUhlVndDZElGNGtqdgowNEpjQ1doZHRQaXcvZ3gxOWlZMU1SWlAwcU9CQzFoNmZwMU9lZisrK0FBNnd5ZE1WUGRUNjJnc0NwdXBFOWVyCng4SWpCRWlZQjFheUJRVko1eks0N3NTUWU0OXowZGdBT2RKSnRMYThaVHYwRHNEY0YxMkg3K3BNYlRTQVd3V08KZEx4OEpiTHJScG1rWmJsanp1YjEyL0I0aWx6VUdaQ2VUcXh0cWdXVTYwYWZVR1E3ei9WNXJPWEtreXZZRGhwZQoxSEFZbEhEVVZYOWprZ1BVNWpHZWdLK29mT3U4bEo3UXBZSDJSQzVVbnlsR3hHSGViUkVmc1hZWExnc2ZuV3NlClpVSFlTWlQ3NHlLVU9keTFNcUlWN2c2K0N3OHNHbHJmUTB2M2p2TjkvTVRaZlZURVp1anEzczZyUnVpbmE0b1AKM1kzV1R4NitpSG1vMStPMTREWXU4VWUvZFpSQW1kRlBwYU1vTGFjaHlJLzJIOFp6UG4rM25jUlMwZ1QyRVhzVApkMVJsKzE1VlJLVkVFdlA0RGduVEd2b3RCNHF4dVFHTkJGbUtVbjhCREFEWkhzNEFPNFpDOVBGejIyTU5nbC9jCk9BZ0ZnNzNsTmFwL0dLY29oVGZQaWVtZ1ZTRDA4cERNYmpDeUZZUVIrdXI1M095dTk1Ym1EeHVFRG1vYURtTW8KQWMxUUNQRDZHTDROVTR6VzhPZUpQd0RDRTFGNm9Hc0c3Q2x5WkJoNkhHYUFlS281YkFlLzhQeEhOMFJ6NEtScApjbEsyejdsZGcvTFM3eXgzZk9rNGsxQnVMY1h0MXJZVnpsYmdPeXZ1NU4vaXRuQ3oyS012QUR1QVZ5TFpFK0I5CmxpV1J6Qjc5QXVHT3pZRnZuTE9PY3JCMDVQVVNCOUMwRWczR0hPZStvd1RhTVY3NXZ6c3k0NW4zRjJNVm4zUlMKOWR2VVJidTVpMmt3NmNyT0hoTUx4T0xZN1R6OUFCYXVia2dQTHJ3b0dUWk1GRjlTcWh3Rkl6TWNxNlNlczJvVgpjWFc4TmoyYXhpeGhiZHdCZzJNRjNNQTgwU3NTZnY1K2hkV1BkVldjazUvcGVpdlBkR09yQkNiUXUxSU4vUG11CkMwYURGNkh6NVp6OXA5b2lNK0k4U2szbnU1dkVXVTBuWXZKaC9KcE9EWlpaRGNmWngrb25rdHA2Snk2NTY0Y0sKSVczcEdlbnhVSXZkbzlNR1U5NVVQcFFwS2RuWVliSFZQNUdWcTJKYXdCMEFFUUVBQVlrRFBnUVlBUW9BQ1FXQwpXWXBTZndLYkFnR3BDUkJzWFpHNXFoUVhUc0Rkb0FRWkFRb0FCZ1VDV1lwU2Z3QUtDUkFkMXFValpzUjN6ZzZyCkMvOXJ3Zk1PR0JkWlhuK0Rka2ZqQVZ6cU9tWFhWd1V0Q1MvbTBiaGxPazlOT1ZrR2hmWGhKaks4RTMxaWhJREoKNXVOR3E0VHJQM1cyaysrT0FwMmloS2JtOHJKaVg0T1FKUHBhMjMrYmZ0WmZQNmNaZE9VRzJZam1XeWx2NXhQdgpzczRIbTFUdjVrVy9vc0ZhNVNoSFYzSlg0NE1YRWFMQzFPQU80dkYybVZybnNPK0RrdFRnUE9qZ3pyWmRqbTNGCkVjNTFld2lJdTErSXBSbktvTXVaczdZMDE2WVZTSm1ySDgxWGp1ZG8vcHpzY1VsWTBwa0RoS0NwaDZsOENwbG8KZFAzTkpXdTVpRlFzMXJBRDZjWUFzK3hNNWpySWJOWUZoMVp0NkZVTWp4TlY4d0lSbUJzWitHRGxnTGdLT2pIdwpkNXZUMlpjSXdoSXllZG40ZGZQVVBUVE1TOG1GNTdaWFNlNVBIK3BwSDNtL3c3cmNucDlnQ2ZvSGoydDBzS1lFCkhHOUgvcHJwKzJsNU1ZdllRZHNQbXFTWktHTkEyK0tNOUVFOHRkczZKNU9OK1V2WDdCQjlsaGg4Y1RnUTBnRUIKbkRyQ0lYeS9PQ2RKREluU1BpS1VKUXhucjJqcWNNL1NRTzZVQTFmNTFDWm5CaUZOUW5Fc29qOFlYMFZ0ajJvdgpjcHphVUF2K01yRW5RMWo1Mk9rU1N2M2FYTGFVaUF4M0MzSEtxM1BsLzkvYWZUdlk2b3F6U3VTWmhUSE9mTS9zCmFwa1dCUUlQSEVsMGNaMkVrTU9vUkFnZnRmWUNhcllabkFPaTY2eVF2WUxmQlJKM1B0THU4THh2Rk16YUxPSHEKeTMxejM5d3FCUDBWVm1xR0pjMFRtOUMrZ1pmN0kwSm5FTUdPbFo2dXJQSDNDYThHRXlaZG1aMEZQZWFQdnBkRgp2YkZlcU1GUEgydzJjWld2aEFxSmhnTmhocG9ZTW5oaWQ5blJ1SzExeFB2UXV4eWp4UngycjFiRWtqQmRXell5CkltOFZoUlR1a3NKMVpsQ0Z6OUZ1ZndNU0dzL0ZTY28rWXlXaXZUZGtUSm9sb29CNkFHZmZ1aTRoZmVDVzFzWGsKN2xmREkzZm82YVlVcndkcVhET3FuWHRvZ0YyRUlkMVR1TkhoVjl2ekFYb0Jjc2o2c2NPZFlhanBZcUZOTG5oaQpRZ2xQVWQxTXhNdGNEWlYxaEZUeksvdGNvVjFrR2JLdHVwQk9uV3hXdFBjdWRQZlRLQTZFdjRqK2l3WnphbTEzCk9yNFU4Qi9qRlFtc252bGZSbjJQOEprV2NVcTMyQ2srT1Qxclo2QzFYUFZ4T3ZqVTV2S05JWU0wSXdtNWlhVWUKSHVPM1JXZDB1UUdOQkZtS1VuOEJEQURiK1ZmN0trVU4xYy9TOW13VEZ6dDBHRnpzdGFwRVFVTkF1UG9zdWZXdgpRdkd0MFFVM0dLRnVnekZpdVg0QS9wWWdiTlMrL2tBa1RXOFIyME1zVk01NzZHVDljZzdDemczQ2k5dXF3aytZCnBpQkdnTG1FWjFidnhISzVHNzNVc1F5aHI5cTdQcHFEbFF4OElQKzVkSis4U2d0VExVak5CVVNWS3FFSERhZm8Kb0dydFgwV0p3cDlhNjg0OTgrS0xMc0xPUlNkYVBZQzlTL3RrdmpRTnRGeXZlL0xQcWxVOU9NR1NidElPQWRFOAprUTZqa3JRVHpNdExQWlJudnhiTkxsY1lNN01md3JIVkZvTjk1czlKRzF0Y05oUDdLQU1SK09nS09EL2J2cFhrCnVqR09COU0vcXUzbWZrVTVOU3ZHRng5OEcvVmRxS2xldU5KVWx2cmdLV0RUa1hXL1psM2tMekRNZW1IWmNSMnYKREp1UWFvTCtXN1ZMVmR3SW9pMWM0dmNXcm5SQ1JKLzE4Nnk2Y05jUG13QytONEhUbE9DZGR4LzdYNGhxSS8wZwpWSGRHN3lRUUtwZzNoSDI2NktVVC92M3laWnQydWE5K0FPQXJoMDI2TUZlbHRWd3p3cFV1NXpiQzM2RHAzVTBiCldxUDYxR2FXYkdFM2hKTnMzUDlRUVJzQUVRRUFBWWtCbndRWUFRb0FDUVdDV1lwU2Z3S2JEQUFLQ1JCc1haRzUKcWhRWFRuUTVDLzlIREtUK2ZtbEdnRk90Q2I5aEIzNVJsUUR2QTd0clZFTjN5SXkvRDNjSHB3TjlHVE9KQXk2NApBVVVIOW1VYXRzemJMWXd2TTA4Z2t2ajV3bFF2QmtxbnR3ckc4TWl3S3BlbkE0WUlVT0dMamxHUkRHRy8zT2hkCkE4NTFFSjJJTzVWb09jUmw4SGdPTUw2ZDRUQ2ZoUUc2Y1QyUXoraWNUYVJRTE95UzZGdmFsVFo2d0tNT0tncUoKckNYL0tyZ2pIM0lBWmFjWnlQV2JhNEdLdmYwTXdCbE5mWDFURjBldWhpU1N5cjducTBvUlhhTEd4QmNnZWNQUQozeUdONVNIU0lRS3dJQjJzYnVOWmdYY3ZOSjlmSk1hcmZ2ZHhqOXVkQ3VTWkxPNGZ0SE9BU1M2QSt2dDJLSzh3CmFqK2tsZDNka1ptVVZHMmZ1ZXZVbTd1clNZbmlzUUYvVFlqUmxiaG9HeHJCMWRMVmc0SEl6SThDbGhEdmpxa2QKNjhmbFZqcW5KNXpHM2MrRjVrR1VzUHlUelhuZG5QR0syU2k1eGFXZ3ljQzJWemZzQ2x2VWRMWk1zK3owdDlLbwpTdTlya0owbEtobU9JbWNiekQ1WUZmVzNUb3N6QVl6ZnNVZmh2dCtuaGVwQUE5NGVqMVRXSWhwajV5V0MrcDA0CjQvOTI3ZGxPd0FtNUFRMEVXdTRubGdFSUFNQVJBUlYxcTNCVkF0VjRNcEhJMmNJbmprc09VVzkxK2xIZWo4QUMKSzVWNCtsZXFqcGRRMmRILzdwNHRuL05CMUlOVXZUcWVuekVZVDc4Um1oSmVvRGRvRGF2YmsvaDZwL3B0bjJoYQo2ZVlnWDNDa0hLV0xPZVhEWUlxOGplK2VZU0RhQjEzUGd4TzhtaDNKVURNNnUwMjdReHlxQUVEQVV2OHVKSDZ1CldYNU5aTjFLa1ZhOHhwSHM5WndmWm01OGlFbWlJTm9CTHE0ZzN6OFpQTWRGVDE0WXJGdDI5NnpMZHRodWF2U0MKMEhnYUxTTVF1YVVpS1hzRmRGOFdWMDZIV3VxVzFxN1I4N09XeEczQmoxMnQyeEJnTGhOSjY2NHRUeE43MWxXWgowOHlaRjFmV0tvb0R2Tm5venRVWFBzbkFYb015QStVVGg4SUprelFDUGhVWHlrTUFFUUVBQVlrQ3ZnUVlBUW9BCkNRV0NXdTRubGdLYkRnRXBDUkJzWFpHNXFoUVhUc0Jkb0FRWkFRb0FCZ1VDV3U0bmxnQUtDUkMveFpESGpwTm4KWmhLdUIvOUF4dEloR2FuSU5JOEFjc0Z4ays4M21aWHRiNjNhUXFYMWk3dkVQSXF6RUVhSkFtTmFBVGhMMWRGYQpnYyt6QkM3QU9UamZ0OHo5aG9SVjdocE5Za3BQSmk0T1RnRDVUcE1wNUs5bG9NR1M4aHFXZDVnbm9vSzlHREJuCjdwUjlyd3RISk1CQm91UXVtMERZQjlBRnNKWnE1eFR2TU9qaXR1SmxGQ1hoeUJ2TElzb2JxaFoxZlBVY0pyOVIKdXR1U1hyei9VOXNKSHgxbDNQdDVmOURVd3RXeVdMcmxobzRVeE1CVkNiMFlWVXJYRU1kVm9TdGltbGVTZUczdgo3d2xscXloQWwvUE1kbWtxTlJDMFJkNFQ1MDRpM0RMZHZYUDZ2WUtxZjJybENSOEgvSHV5YWg1azU1RDBRbkZHCk1oRWFuc2hZTkZIRktkWFQxKzY5VVBDU2tUZVJyVFlMLzB2d2ZBa21OaHhwRlFlRXBJdkxUQm0vbXhwNWNFd2wKT0RFY1I3MGdQSzdleGN1VmxiWFBZeUZUMWNYajVxZk52T2dYWkhDYjhCZXJhS0cxdk1xS0NyWFlTa2ZkZXU3YwpPYVk5S1d6SlV0SncyYXdadzRCbW5ZYTQxSTc4NFFTQjdzaG5Pc1k3c1QrKzQvblkxbTNIbmFnTDNOQ1B2WGZHCmhCcjA2T2xieUNBOHgyOXozSTJmYktQQnREVWZicnBzczFuYnQ1VjJZaDQ4cXFycnQ2dTVIb0hXWCt6UFNFSXcKV1hxR2pwMFFWaHpOQUFtdEk1aERWUy9QdllOVW9sV0FGaEgveXg1OEh6dHlVV2oyZlUzeWxrNG1VbHRucTB0UQpjUk1EVk0rbFFtS21xeDY3TGg0THRWMndrS0dIR1hpcng1cm1xQ1E1QjNPdXFicVNzZGoreEs0aHNFR3dLWTRsCkY0c215ZVMvbUMwdnVpd0tUOGVwWjVjSThQckY0d0VwYmtka3grVklrMXlvZnNBUDNJQzZTQzFpSkJzcjNJYkQKU2FuOEF2Ty8zQk0yaVVucTRnanBBaVRYSmNyWm9XK01YNTBzUDVoR3NxMFAweVRhNkdvTTB3WXNBdlFJa0lORwplNm8rYjJadmlCQURuNkovamtnUjZWVXFEeU1pQklaQklJa0Jud1FvQVFvQUNRS2RBQVdDV3U0bnlnQUtDUkJzClhaRzVxaFFYVHMyS0RBRGpKcXVydlRyWWdFMTNTckNvS0V4K2VGVFB4YnVjeW1UdmNnR3pkdjlxUXBTREJTM1MKRldndS82U1BTbTg3aHdTMjBQeVl0M3VaZ0czYVh2YW1Hb1p2MHpic0pYd1FRL0Rqdy9XSlVDYUtYMmJKL1FEMwpGNE9QMTBnbU9TQTIvKzJVTW1DRUpuWHZPZ014YVRTeTFzLzRvTFlON0thSkV1TWRNdTVCaHJxQ0k3YkdsaDRvCmpsLy8wQldaNm9Pd1dxd1FSWG1sdEVYczBEYXNWcU5iSllRdGdzd2Z6QzBja2tCNlcwSlZVMUxoZVhJd0hhYTAKMUpuWldwQWwwMGY4WHRPUU5XWnhhdnhqUFNiRUdZQ05lSHhUL1JXZ2lQR1JIUTc2a2x1aTh2RTRjN0ZGVDg1YQpyMFRIakF6R3pod21LTVpVN21vZUdqOWR4Tm1zM0V3RSswdzRDbVVtK3MzbXF2S2JXVDVDYnhFTUgrUUh1bE1HCjFsUHh1QkxCcmFFTWFVRVBRRThPS0FEUEw2MUFScHVqdi90d2JTZE9NNTdBTFFPRm0vaWRrYnVIK1hkbjdMb2oKUmlFRWd2akVJQ0dXS0FQOWFqUmIxdEJTeHNuMmgyWXJ1cjh2dm9jVDZnZmlpcG5BUWNiaFVzZWVMU3ZwY0poeApOYTdOZzd5cGlkWWMrdlc1QVEwRVd1NG55Z0VJQU56NzZwRTJxcUNIaWV3dlVkckFWMTVKTXhxV3B1d3lSS252CmFEMUludGVqb1JZU2FMS3ovdWRJRTRET1FCOFFNQXcxeEdwTzYvUUh1VkdFaktwWVFZQXprZ2V0Q2daMkdtRnEKdlJKUEpESjMrL09vdk9aUEtkQ2ZGblF0ZVYxTFREcEJ6Y1ozbWhyOUs5cTRpeGZBREFUQXlQakRxRHFTY0tJdwpmWHZvYW4vMnRKcnRndmcxaFpsK2R2aVphTm9SdkhBaklSMDlwZm1hTlFldWt0c2grV2txV0YrRW9EVkd5Y29NCldGb212Nzd2bk4xd1dnM2ZnQnhKN05SSjlvYjk5Y2VrWHJMNTNsUlN5MzFadWdyenFhSDlDTEZNdjUxc2JYUnMKT2lma014NFZsTm5ySzhyR1pNOHZsVmQzY1lvZkdFQnVlYUV0dG5mbmQyM3pRTzdkcVk4QUVRRUFBWWtCbndRWQpBUW9BQ1FXQ1d1NG55Z0tiSUFBS0NSQnNYWkc1cWhRWFRrb2ZEQUNrb2tBTkZKa0FZVjQyU3NSdndMYXNBMEp6CmR4OUNWR25GaCsxTkdtMitHbmJjT2NySHlWNjZua1J1aDdLandhWnFGczk5UjN1MHJza2cwSFhsN2FoZFVDS3gKN0RWbW5VaC8wdXZ1bnN1aFNjTUxOTVVRWHFsanJlZXlLUmJmeTl6bkhGdDVMZCs2MHRia0JGMytZcVF6cEg0MAovYTBzMmxhYjE1RlRkdlBiV1lZOGhnVTZxUmhtOTJ3SU5lSlZKYjk0M0o1emtMUnpzVTdWbVRNbTdJd2JTUVc5ClpXYTgzK0FDMko0TXJGTlZ6NUJGNUhxYjdlL1QrakVTVm42TGxIdllDVEprRnpvU3QyM1BKbnM0TXNTMnRoRmYKTUdyc05SZWVKblJ6OVRsMUs0Q3lDVjBRSXhENDVrb1ZUdEhFanZHY2tkU0ZzNDNGRDkza2lZVnpaK2N6RlRMYgpETHZaaTMwVU5JM2NYVG9WSkhqbmtZamdkTkswdXlOOHhRb2UzaXBKd0VqN3BxL1FVMlVIazR5Z2RVNkxPSm13Cnc3dE5tQmYyMlJ5a3pZSVBFYjhvUVl1ajd0K2I4dUtxOXpxWFhaUzdRWXhYRWwxbEUyK3poL0w2TERSWVNxQWUKRVN6RXFNeUU2ZGN0WWNIQXpIYjEzbFJFRUwrWjZhY3Y1bTlsS3dJPQo9OTVtZwotLS0tLUVORCBQR1AgUFVCTElDIEtFWSBCTE9DSy0tLS0tCg==
 
   ## fnContact
   fncontact:
-    id: # Your Form ID
+    id: philippe-helal-en # Your Form ID
 ## => Build
 ##############################
 markdown    : kramdown
@@ -222,10 +221,10 @@ defaults:
     values:
       layout: article
       sharing: true
-      license: true
+      license: false
       aside:
         toc: true
-      show_edit_on_github: true
+      show_edit_on_github: false
       show_subscribe: true
       pageview: true
 
@@ -236,4 +235,4 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
-  - jemoji
+  # - jemoji

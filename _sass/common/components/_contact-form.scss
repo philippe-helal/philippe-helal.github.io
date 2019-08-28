@@ -1,0 +1,15 @@
+form > [type=submit] {
+  @extend .button;
+  @extend .button--lg;
+  @extend .button--pill;
+  @extend .button--outline-info;
+}
+
+input:not([type=submit]), textarea {
+  width: 50%;
+  padding: 12px;
+}
+
+textarea {
+  resize: vertical;
+}
