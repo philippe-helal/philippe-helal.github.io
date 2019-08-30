@@ -5,7 +5,8 @@ excerpt: >
   Computer Science Graduate Student at Université de Montréal
 
 permalink: /en/index.html
-fncontact-id: philippe-helal-fr
+fncontact-id: philippe-helal-en
+lang: en
 
 article_header:
   actions:
