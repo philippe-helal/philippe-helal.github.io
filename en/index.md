@@ -81,9 +81,13 @@ data:
     - id: blog
       fade-in: down
       title: Blog
+      excerpt: <a href="/blog">Recent Articles</a>
       children:
-        - title: Under construction  # TODO SHOULD HAVE HAVE LAST FOUR BLOG POSTS WITH IMAGE AND EXCERPT FOR EACH
-          excerpt: To be notified when it launches, fill the <a href="#contact">contact form</a> with '*blog*' as the message
+        - title: A Survey of Game-Theoretic Adversarial Learning and Its Implications on Privacy 
+          excerpt: Adversarial learning is a new and growing area of machine-learning research. Formulating it using tools from game theory allows for a different view of machine learning, when compared to the traditional, purely statistical view...
+          actions:
+            - text: 'Read More'
+              url: /blog/2019/10/08/a-survey-of-game-theoretic-adversarial-learning-and-its-implications-on-privacy
 
     - id: contact
       fade-in: down
