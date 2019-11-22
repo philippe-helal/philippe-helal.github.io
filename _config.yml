@@ -66,6 +66,7 @@ paths:
   home    : /en/ # home layout url, "/" (default)
   archive : /blog/archive.html # "/archive.html" (default)
   rss     : /blog/feed.xml # "/feed.xml" (default)
+  blog    : /blog
 
 
 ## => Post

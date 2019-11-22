@@ -5,7 +5,7 @@ default:
   paths:
     root: /
     home: /
-    archive:  /archive.html
+    archive:  /blog/archive.html
     rss:  /feed.xml
   mathjax: false
   mathjax_autoNumber: false
@@ -61,4 +61,6 @@ sources:
       js: 'https://unpkg.com/gitalk/dist/gitalk.min.js'
       css: 'https://unpkg.com/gitalk/dist/gitalk.css'
     valine: 'https//unpkg.com/valine/dist/Valine.min.js'
+    mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-AMS_CHTML-full'
+    mermaid: 'https://www.unpkg.com/mermaid/dist/mermaid.min.js'
     openpgp: 'https://www.unpkg.com/openpgp/dist/openpgp.min.js'

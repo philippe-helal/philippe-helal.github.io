@@ -70,13 +70,13 @@ layout: base
       <div class="page__main-inner">
       {%- if _header != false -%}
         <div class="page__header d-print-none" fade-in="{{ page.header.fade-in | default: "none" }}">
-        {%- assign _header_theme = page.header.theme | default: layout.header.theme -%}
+        {%- assign _header_theme = page.header.theme | default: layout.header.theme -%}        
         {%- if _header_theme == 'dark'-%}
-          {%- include header.html theme='dark' background=page.header.background -%}
+          {%- include header.html theme='dark' background=page.header.background path=page.root-%}
         {%- elsif _header_theme == 'light' -%}
-          {%- include header.html theme='light' background=page.header.background -%}
+          {%- include header.html theme='light' background=page.header.background path=page.root -%}
         {%- else -%}
-          {%- include header.html -%}
+          {%- include header.html path=page.root -%}
         {%- endif -%}
         </div>
       {%- endif -%}

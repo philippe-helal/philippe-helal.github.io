@@ -12,16 +12,16 @@ article_header:
   actions:
     - text: Projects
       type: outline-theme-dark
-      url: "#projects"
+      url: "/en/#projects"
     - text: Resume
       type: outline-theme-dark
-      url: "#resume"
+      url: "/en/#resume"
     - text: Blog
       type: outline-theme-dark
-      url: "#blog"
+      url: "/en/#blog"
     - text: Contact
       type: outline-theme-dark
-      url: "#contact"
+      url: "/en/#contact"
   
   height: 100vh
   theme: dark

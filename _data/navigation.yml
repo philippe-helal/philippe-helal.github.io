@@ -5,6 +5,12 @@ header:
       en-US   : *EN
       en-CA   : *EN
       en-AU   : *EN
+      fr      : &FR       Archives
+      fr-BE   : &FR
+      fr-CA   : &FR
+      fr-CH   : &FR
+      fr-FR   : &FR
+      fr-LU   : &FR
       zh-Hans : &ZH_HANS  归档
       zh      : *ZH_HANS
       zh-CN   : *ZH_HANS
@@ -14,7 +20,7 @@ header:
       zh-HK   : *ZH_HANT
       ko      : &KO       아카이브
       ko-KR   : *KO
-    url: /archive.html
+    url: /blog/archive.html
 
   - titles:
       en      : &EN       About
@@ -22,6 +28,12 @@ header:
       en-US   : *EN
       en-CA   : *EN
       en-AU   : *EN
+      fr      : &FR       À propos
+      fr-BE   : &FR
+      fr-CA   : &FR
+      fr-CH   : &FR
+      fr-FR   : &FR
+      fr-LU   : &FR
       zh-Hans : &ZH_HANS  关于
       zh      : *ZH_HANS
       zh-CN   : *ZH_HANS
@@ -31,4 +43,4 @@ header:
       zh-HK   : *ZH_HANT
       ko      : &KO       소개
       ko-KR   : *KO
-    url: /about.html
+    url: /
