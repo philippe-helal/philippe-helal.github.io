@@ -238,3 +238,6 @@ plugins:
   - jekyll-sitemap
   # - jemoji
 theme: jekyll-theme-minimal
+feed:
+  excerpt_only: true
+  path: /blog/feed.xml
