@@ -14,6 +14,7 @@
     {%- if forloop.last -%}
       <div id="fnContactCaptcha"></div>
       <script src="https://fncontact.com/captcha.js"></script>        
+      <script>document.getElementById("fnContactCaptcha").removeAttribute("style");</script>
     {%- endif -%}
     <{{ tag }} encrypt="{{ field.encrypt | default: false }}" type="{{ type }}" id="{{ field.id | default: field.name}}" name="{{ field.name }}"
       placeholder="{{ field.placeholder | default: '' }}" {{ required }} {%- if field.style -%} style="{{ field.style }}"
