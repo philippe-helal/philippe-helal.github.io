@@ -49,11 +49,11 @@ data:
             - text: '<i class="fab fa-github"></i> GitHub'
               url: https://github.com/ctrl-q/apify
 
-        - title: jekyll-TeXt-theme
-          excerpt: Ajouts au projet de Tian Qi.<br>Thème utilisé sur ce site
+        - title: malgan
+          excerpt: Implantation preuve de concept d'un GAN générateur de virus
           actions:
             - text: '<i class="fab fa-github"></i> GitHub'
-              url: https://github.com/ctrl-q/jekyll-TeXt-theme
+              url: https://github.com/ctrl-q/malgan
 
         - title: ml
           excerpt: Divers modèles Machine Learning
