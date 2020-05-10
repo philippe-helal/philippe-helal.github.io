@@ -141,6 +141,8 @@ comments:
     app_id      : # LeanCloud App id
     app_key     : # LeanCloud App key
     placeholder : # Prompt information
+    visitor     : # false (default)
+    meta        : # "[nick, mail, link]" (default) nickname, E-mail, Personal-site
 
   ## Hashover
   # please refer to http://tildehash.com/?page=hashover for more info
