@@ -2,7 +2,7 @@
 layout: base
 ---
   <script type="text/javascript">
-    location.href = (navigator.userLanguage || navigator.language).startsWith("fr") ? "fr" : "en";
+    location.href = (navigator.userLanguage || navigator.language || "").startsWith("fr") ? "fr" : "en";
   </script>
   <noscript>
     <ul>
