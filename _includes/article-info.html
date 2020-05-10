@@ -1,4 +1,4 @@
-{%- assign _author = site.data.authors[include.article.author] | default: site.author -%}
+{%- assign _authors = include.article.author -%}
 
 {%- if include.html != false -%}
 
@@ -57,7 +57,9 @@
       {%- if _show_author or _show_date or _pageview -%}
         <ul class="right-col menu">
           {%- if _show_author  -%}
-            <li><i class="fas fa-user"></i> <span>{{ _author.name }}</span></li>
+            {%- for _author in _authors -%}
+            <li><i class="fas fa-user"></i> <span>{{ site.data.authors[_author].name }}</span></li>
+            {%- endfor -%}
           {%- endif -%}
 
           {%- if _show_date -%}
@@ -83,8 +85,10 @@
 
 
 {%- if include.semantic != false -%}
-  {%- if _author -%}
-    <meta itemprop="author" content="{{ _author.name }}"/>
+  {%- if _authors -%}
+    {%- for _author in _authors -%}
+      <meta itemprop="author" content="{{ site.data.authors[_author].name }}"/>  
+    {%- endfor -%}
   {%- endif -%}
   {%- if include.article.date -%}
     <meta itemprop="datePublished" content="{{ include.article.date | date_to_xmlschema }}">

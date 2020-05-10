@@ -88,6 +88,11 @@ data:
           actions:
             - text: 'Article complet'
               url: /blog/2019/10/08/a-survey-of-game-theoretic-adversarial-learning-and-its-implications-on-privacy
+        - title: 'Teach: A framework for decentralized federated learning'
+          excerpt: Federated learning is a promising concept for owners of machine-learning models and owners of training data alike. [...] We outline a framework for orchestrating federated learning and rewarding data owners that does not rely on trust or knowledge between the model owner and data owners
+          actions:
+            - text: 'Article complet'
+              url: /blog/2020/05/03/teach-a-framework-for-decentralized-federated-learning
 
     - id: contact
       fade-in: down
