@@ -10,18 +10,18 @@ lang: en
 
 article_header:
   actions:
-    - text: Projects
-      type: outline-theme-dark
-      url: "/en/#projects"
-    - text: Resume
-      type: outline-theme-dark
-      url: "/en/#resume"
+    # - text: Projects
+    #   type: outline-theme-dark
+    #   url: "/en/#projects"
+    # - text: Resume
+    #   type: outline-theme-dark
+    #   url: "/en/#resume"
     - text: Blog
       type: outline-theme-dark
       url: "/en/#blog"
-    - text: Contact
-      type: outline-theme-dark
-      url: "/en/#contact"
+    # - text: Contact
+    #   type: outline-theme-dark
+    #   url: "/en/#contact"
   
   height: 100vh
   theme: dark

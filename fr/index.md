@@ -10,18 +10,18 @@ fncontact-id: philippe-helal-fr
 
 article_header:
   actions:
-    - text: Projets
-      type: outline-theme-dark
-      url: "/fr/#projets"
-    - text: Bio
-      type: outline-theme-dark
-      url: "/fr/#bio"
+    # - text: Projets
+    #   type: outline-theme-dark
+    #   url: "/fr/#projets"
+    # - text: Bio
+    #   type: outline-theme-dark
+    #   url: "/fr/#bio"
     - text: Blog
       type: outline-theme-dark
       url: "/fr/#blog"
-    - text: Contact
-      type: outline-theme-dark
-      url: "/fr/#contact"
+    # - text: Contact
+    #   type: outline-theme-dark
+    #   url: "/fr/#contact"
   
   height: 100vh
   theme: dark
