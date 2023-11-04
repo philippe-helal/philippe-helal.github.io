@@ -33,49 +33,49 @@ article_header:
 
 data:  
   sections:
-    - id: projects
-      title: Ongoing Projects
-      fade-in: down
-      children:
-        - title: PassTheTorch
-          excerpt: Framework for reproducible and trackable<br>Machine-Learning projects
-          actions:
-            - text: '<i class="fab fa-github"></i> GitHub'
-              url: https://github.com/ctrl-q/pass-the-torch
+    # - id: projects
+    #   title: Ongoing Projects
+    #   fade-in: down
+    #   children:
+    #     - title: PassTheTorch
+    #       excerpt: Framework for reproducible and trackable<br>Machine-Learning projects
+    #       actions:
+    #         - text: '<i class="fab fa-github"></i> GitHub'
+    #           url: https://github.com/ctrl-q/pass-the-torch
         
-        - title: apify
-          excerpt: Unofficial client for the apify.com API
-          actions:
-            - text: '<i class="fab fa-github"></i> GitHub'
-              url: https://github.com/ctrl-q/apify
+    #     - title: apify
+    #       excerpt: Unofficial client for the apify.com API
+    #       actions:
+    #         - text: '<i class="fab fa-github"></i> GitHub'
+    #           url: https://github.com/ctrl-q/apify
 
-        - title: malgan
-          excerpt: POC implementation of a malware generating GAN
-          actions:
-            - text: '<i class="fab fa-github"></i> GitHub'
-              url: https://github.com/ctrl-q/malgan
+    #     - title: malgan
+    #       excerpt: POC implementation of a malware generating GAN
+    #       actions:
+    #         - text: '<i class="fab fa-github"></i> GitHub'
+    #           url: https://github.com/ctrl-q/malgan
 
-        - title: ml
-          excerpt: Collection of Machine-Learning<br>models & experiments
-          actions:
-            - text: '<i class="fab fa-github"></i> GitHub'
-              url: https://github.com/ctrl-q/ml
+    #     - title: ml
+    #       excerpt: Collection of Machine-Learning<br>models & experiments
+    #       actions:
+    #         - text: '<i class="fab fa-github"></i> GitHub'
+    #           url: https://github.com/ctrl-q/ml
 
 
-    - id: resume
-      fade-in: down
-      full_width: true
-      title: Resume
-      excerpt: <a href="https://pygy.co/phcven">Full Version</a>
-      children:
-        - title: Experience
-          excerpt: Predictive Modeling, Business Intelligence, and Teaching
-        - title: Main skills
-          excerpt: SQL, Python, Shell and VBA
-        - title: Education
-          excerpt: Bachelor's of Business Administration (2018) and M. Sc Computer Science (expected 2020)        
-        - title:  Main Interests
-          excerpt: Economics, Finance and Computer Science
+    # - id: resume
+    #   fade-in: down
+    #   full_width: true
+    #   title: Resume
+    #   excerpt: <a href="https://pygy.co/phcven">Full Version</a>
+    #   children:
+    #     - title: Experience
+    #       excerpt: Predictive Modeling, Business Intelligence, and Teaching
+    #     - title: Main skills
+    #       excerpt: SQL, Python, Shell and VBA
+    #     - title: Education
+    #       excerpt: Bachelor's of Business Administration (2018) and M. Sc Computer Science (expected 2020)        
+    #     - title:  Main Interests
+    #       excerpt: Economics, Finance and Computer Science
         
      
     - id: blog
