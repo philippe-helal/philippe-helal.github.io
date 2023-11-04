@@ -2,7 +2,7 @@
 layout: landing
 title: Philippe Helal
 excerpt: >
-  Computer Science Graduate Student at Université de Montréal
+  Data Engineering Consultant
 
 permalink: /en/index.html
 fncontact-id: philippe-helal-en

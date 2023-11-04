@@ -2,7 +2,7 @@
 layout: landing
 title: Philippe Helal
 excerpt: >
-  Candidat à la maîtrise en informatique, Université de Montréal
+  Data Engineering Consultant
 
 permalink: /fr/index.html
 lang: fr
