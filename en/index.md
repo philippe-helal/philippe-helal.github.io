@@ -94,36 +94,36 @@ data:
             - text: 'Read More'
               url: /blog/2020/05/03/teach-a-framework-for-decentralized-federated-learning
 
-    - id: contact
-      fade-in: down
-      title: Contact
-      excerpt: <i class="fas fa-lock"></i> Will be <a href="https://openpgpjs.org">encrypted</a> before leaving your network
-      type: contact
-      fields:
-        - name: name
-          label: name
-          text: 'Name '
-          placeholder: Name (optional)
-        - name: email
-          type: email
-          label: email
-          text: '<br>E-mail '
-          placeholder: E-mail (required)
-          required: true
-        - name: message
-          label: message
-          tag: textarea
-          style: "height:200px"
-          encrypt: true
-          required: true
-          placeholder: Message (required)
-        - name: url_success
-          type: hidden
-          value: "https://philippe-helal.github.io/en/contact-success"
-        - name: url_error
-          type: hidden
-          value: "https://philippe-helal.github.io/en/contact-error"
-        - name: submit
-          type: submit
-          value: Submit
+    # - id: contact
+    #   fade-in: down
+    #   title: Contact
+    #   excerpt: <i class="fas fa-lock"></i> Will be <a href="https://openpgpjs.org">encrypted</a> before leaving your network
+    #   type: contact
+    #   fields:
+    #     - name: name
+    #       label: name
+    #       text: 'Name '
+    #       placeholder: Name (optional)
+    #     - name: email
+    #       type: email
+    #       label: email
+    #       text: '<br>E-mail '
+    #       placeholder: E-mail (required)
+    #       required: true
+    #     - name: message
+    #       label: message
+    #       tag: textarea
+    #       style: "height:200px"
+    #       encrypt: true
+    #       required: true
+    #       placeholder: Message (required)
+    #     - name: url_success
+    #       type: hidden
+    #       value: "https://philippe-helal.github.io/en/contact-success"
+    #     - name: url_error
+    #       type: hidden
+    #       value: "https://philippe-helal.github.io/en/contact-error"
+    #     - name: submit
+    #       type: submit
+    #       value: Submit
 ---
